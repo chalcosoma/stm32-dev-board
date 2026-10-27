@@ -1,0 +1,9 @@
+/stm32-board-backups
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*.kicad_prl
+*.lck
+.DS_Store
+Thumbs.db
+.history
