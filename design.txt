@@ -1,0 +1,8 @@
+Design rationale
+
+MCU: STM32G431CBT6 LQFP4B, 128 KB flash)
+
+The G4 line is designed for motor control, and 48-pins should suffice for a full three-phase motor drive. LQFP is easy to hand-solder.
+
+Power: AP2112K-3.3 LDO
+Stable with ceramic caps; draws 10 uA idle; outputs clean reference for ADC. 5 V input from USB; Limited by 5.5 V max input
